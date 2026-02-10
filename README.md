@@ -10,7 +10,7 @@
 
 <img src="https://komarev.com/ghpvc/?username=N0tMaggi&label=Profile%20Views&color=blueviolet&style=for-the-badge" />
 <img src="https://img.shields.io/github/followers/N0tMaggi?label=Followers&style=for-the-badge&color=blue&logo=github" />
-<img src="https://img.shields.io/badge/Status-Always%20Coding-success?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Status-Always%20Cute-success?style=for-the-badge" />
 
 <br/><br/>
 </div>

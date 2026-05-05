@@ -13,6 +13,14 @@
   <img src="https://komarev.com/ghpvc/?username=N0tMaggi&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/N0tMaggi?label=Followers&style=for-the-badge&color=blue&logo=github" alt="GitHub followers" />
   <img src="https://img.shields.io/badge/Status-Always%20Cute-success?style=for-the-badge" alt="Status badge" />
+  <br />
+  <br />
+  <a href="https://rawr.maggi.dev">
+    <img src="https://img.shields.io/badge/Portfolio-rawr.maggi.dev-ff4d8d?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=151B23" alt="Portfolio button" />
+  </a>
+  <a href="https://isafemboy.gay">
+    <img src="https://img.shields.io/badge/isafemboy.gay-isafemboy.gay-8b5cf6?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=151B23" alt="isafemboy.gay button" />
+  </a>
 </div>
 
 <div align="center">

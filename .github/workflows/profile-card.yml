@@ -1,0 +1,72 @@
+name: Update Profile Card
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "*.svg"
+      - "cache/**"
+      - "assets/ascii-art*.txt"
+
+  schedule:
+    - cron: "0 5 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-card
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests pillow
+
+      - name: Avatar to ASCII
+        run: python tools/build_ascii.py
+
+      - name: Fetch GitHub stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python tools/fetch_stats.py
+
+      - name: Rebuild the card
+        run: python tools/build_card.py
+
+      - name: Rebuild the Pac-Man board
+        run: python tools/build_pacman.py
+
+      - name: Rebuild the link buttons
+        run: python tools/build_links.py
+
+      - name: Rebase onto any commits that landed meanwhile
+        run: git pull --rebase --autostash origin main
+
+      - name: Commit the regenerated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- *.svg cache/*.json assets/ascii-art*.txt
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git commit -m "chore: refresh profile card"
+          git push origin HEAD:main

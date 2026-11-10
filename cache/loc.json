@@ -1,0 +1,127 @@
+{
+  "N0tMaggi/BurpLinkCord": {
+    "added": 0,
+    "deleted": 0,
+    "oid": "baa6179305ad5494a1c3fa6a2ce20e8786494e5f"
+  },
+  "N0tMaggi/CapchaShield": {
+    "added": 0,
+    "deleted": 0,
+    "oid": "2c8ff2ffdea5b817a2b4cc416df15d1d7a0ebd37"
+  },
+  "N0tMaggi/CloudFlareNotifier": {
+    "added": 4564,
+    "deleted": 1487,
+    "oid": "a819b4408c46da86894c1dcb46bebaf18c1dc7c0"
+  },
+  "N0tMaggi/Cloudflare-Origin-Lock": {
+    "added": 0,
+    "deleted": 0,
+    "oid": "21ec367e4fc92ca9fbe06b3174ba1f70c17e30a9"
+  },
+  "N0tMaggi/Custom_ID_Card_Generator": {
+    "added": 114,
+    "deleted": 131,
+    "oid": "16d43fb0c3950177c874e3a3a4721c22b46e8c2e"
+  },
+  "N0tMaggi/MITMSpec": {
+    "added": 0,
+    "deleted": 0,
+    "oid": "3adf68ba25477d0d7860e65e145c62bb279b0ede"
+  },
+  "N0tMaggi/MaggiTools": {
+    "added": 844,
+    "deleted": 118,
+    "oid": "ac04880ac4cbaf7eae0b9d148d9f13ef60008407"
+  },
+  "N0tMaggi/N0tMaggi": {
+    "added": 309,
+    "deleted": 139,
+    "oid": "38f67250b21ad4c1e20af92dac18d679c00c638f"
+  },
+  "N0tMaggi/OFFHUNTER": {
+    "added": 161,
+    "deleted": 193,
+    "oid": "6cbd1603c51de4a5ce956e4926615fa5c787db62"
+  },
+  "N0tMaggi/PythonProtector": {
+    "added": 1009,
+    "deleted": 2,
+    "oid": "1c67bf089dd891f68791d1c6e0efc722749c5d9b"
+  },
+  "N0tMaggi/VRChat-Booster": {
+    "added": 429,
+    "deleted": 1,
+    "oid": "49d930454c8655ee393b80076ddb8954626a1326"
+  },
+  "N0tMaggi/Vencord-Fake-Deaf": {
+    "added": 665,
+    "deleted": 2,
+    "oid": "029ef9216bd1f98e4b0d3880af8669d581b3149c"
+  },
+  "N0tMaggi/VoiceClone": {
+    "added": 7175,
+    "deleted": 17,
+    "oid": "a40628d9110b26fa9d3bc45a6a0042570bc084bf"
+  },
+  "N0tMaggi/cloudflare-attack-watcher": {
+    "added": 14928,
+    "deleted": 82,
+    "oid": "bf99df6bf62b20b789b9fa270777fdb06bc73de7"
+  },
+  "N0tMaggi/discord-fake-deaf": {
+    "added": 362,
+    "deleted": 0,
+    "oid": "7c23009d13a9d82069a092402b4113cdf36539ac"
+  },
+  "N0tMaggi/maggi-media-downloader": {
+    "added": 8872,
+    "deleted": 3236,
+    "oid": "12a43075277b27685e78f9935adafe3e88c2d26b"
+  },
+  "N0tMaggi/maggi-watermark-tool": {
+    "added": 0,
+    "deleted": 0,
+    "oid": "14e93762d4b0b71f6acab9cfe0a2ba1a142f12c2"
+  },
+  "N0tMaggi/maggibot": {
+    "added": 5857,
+    "deleted": 5266,
+    "oid": "b98dc1a94e1a3ad7c5651d250ea26625fc57ad6a"
+  },
+  "N0tMaggi/mailcow-html-sender": {
+    "added": 0,
+    "deleted": 0,
+    "oid": "8bab4971e863ab96a11b5ca3c1990682ac4f1a43"
+  },
+  "N0tMaggi/no-ai-coauthor-hooks": {
+    "added": 616,
+    "deleted": 96,
+    "oid": "6c6177c94edb81d6f7c3a914118f65e5be9c417a"
+  },
+  "N0tMaggi/pcfix-database": {
+    "added": 258,
+    "deleted": 4,
+    "oid": "db5810a1f4e6417387b7d0d32a75b4a2158738bc"
+  },
+  "N0tMaggi/python-end-to-end-chat": {
+    "added": 773,
+    "deleted": 2,
+    "oid": "39c145e7a37fb98015ca5b36198a323320c3c9c3"
+  },
+  "N0tMaggi/rtsp-vision-dashboard": {
+    "added": 108933,
+    "deleted": 4044,
+    "oid": "029ebe4d2d092c04388566c74bd62c1c4b47c4a1"
+  },
+  "N0tMaggi/x64dbg-DiscordRichPresence": {
+    "added": 29433,
+    "deleted": 2,
+    "oid": "9b4198811f3aae8bb82555f25490117dae5319aa"
+  },
+  "N0tMaggi/youtube-video-downloader": {
+    "added": 946,
+    "deleted": 314,
+    "oid": "6b5c88d6e0bbeeed6d30632a169e5afb288f4df9"
+  }
+}

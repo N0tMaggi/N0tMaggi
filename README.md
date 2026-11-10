@@ -1,4 +1,4 @@
-<a href="https://maggi.gay">
+<a href="https://maggi.dev">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/N0tMaggi/N0tMaggi/main/dark_mode.svg">
     <img alt="Maggi (N0tMaggi) - Developer | Security | Automation" src="https://raw.githubusercontent.com/N0tMaggi/N0tMaggi/main/light_mode.svg">

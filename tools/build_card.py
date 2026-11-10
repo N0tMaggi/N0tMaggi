@@ -65,7 +65,7 @@ INFO = [
 
 CONTACT = [
     ("Discord", "literally.maggi"),
-    ("Portfolio", "rawr.maggi.dev"),
+    ("Portfolio", "maggi.gay"),
     ("Website", "isafemboy.gay"),
 ]
 

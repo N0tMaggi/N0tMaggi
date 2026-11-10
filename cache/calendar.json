@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
- "total": 153,
-=======
- "total": 154,
->>>>>>> Stashed changes
+ "total": 156,
  "weeks": [
   [
    {
@@ -1942,12 +1938,8 @@
    },
    {
     "date": "2026-11-10",
-<<<<<<< Updated upstream
-    "count": 1,
-=======
-    "count": 2,
->>>>>>> Stashed changes
-    "level": 1
+    "count": 4,
+    "level": 2
    },
    null,
    null,

@@ -56,17 +56,25 @@ jobs:
       - name: Rebuild the link buttons
         run: python tools/build_links.py
 
-      - name: Rebase onto any commits that landed meanwhile
-        run: git pull --rebase --autostash origin main
-
       - name: Commit the regenerated card
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- *.svg cache/*.json assets/ascii-art*.txt
-          if git diff --cached --quiet; then
-            echo "nothing changed"
-            exit 0
-          fi
-          git commit -m "chore: refresh profile card"
-          git push origin HEAD:main
+          out=$(mktemp -d)
+          cp --parents -- *.svg cache/*.json assets/ascii-art*.txt "$out"/
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            cp -r "$out"/. .
+            git add -- *.svg cache/*.json assets/ascii-art*.txt
+            if git diff --cached --quiet; then
+              echo "nothing changed"
+              exit 0
+            fi
+            git commit -q -m "chore: refresh profile card"
+            if git push -q origin HEAD:main; then
+              exit 0
+            fi
+            sleep $((attempt * 5))
+          done
+          exit 1

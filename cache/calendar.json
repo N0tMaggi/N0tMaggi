@@ -1941,7 +1941,11 @@
     "count": 5,
     "level": 2
    },
-   null,
+   {
+    "date": "2026-11-11",
+    "count": 0,
+    "level": 0
+   },
    null,
    null,
    null

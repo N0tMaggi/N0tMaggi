@@ -1936,7 +1936,11 @@
     "count": 0,
     "level": 0
    },
-   null,
+   {
+    "date": "2026-11-24",
+    "count": 0,
+    "level": 0
+   },
    null,
    null,
    null,
